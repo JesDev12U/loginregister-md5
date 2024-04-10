@@ -9,7 +9,7 @@ public class MySQLConnection {
     public static boolean connectDB() {
         String nameDB = "loginMD5";
         String user = "root";
-        String password = "Jesus+2004";
+        String password = "";
         String url = "jdbc:mysql://localhost:3306/" + nameDB;
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
